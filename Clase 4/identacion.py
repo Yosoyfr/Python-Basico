@@ -1,3 +1,6 @@
+# IDENTACION EN PYTHON
+# Python usa sangría o identacion para indicar un bloque de código
+
 # Bloque 1
 if 5 > 2:
     # Bloque 1 adentro del bloque 1
