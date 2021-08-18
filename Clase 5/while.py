@@ -33,7 +33,7 @@ while i < 6:
     print(i)
     i += 1
 else:
-    print("i no es mayor que 6")
+    print("i es mayor que 6")
 
 # Whiles anidados
 
