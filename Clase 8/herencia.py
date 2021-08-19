@@ -1,16 +1,22 @@
-
-# Clase persona
+# Clase Persona
 class Person:
+    # Funcion init
     def __init__(self, fname, lname):
-        self.firstname = fname
-        self.lastname = lname
+        self.firstname = fname  # Atributos
+        self.lastname = lname  # Atributos
 
-    def printname(self):
+    # Metodos de la clase Person
+    def printname(self):  # Imprime su nombre
         print(self.firstname, self.lastname)
 
+    def presentation(self):  # Presentacion
+        print("Hello, my name is", self.firstname)
 
+
+# Instancia de un objeto de clase Persona
 x = Person("Francisco", "Suarez")
 x.printname()
+x.presentation()
 
 # Crear una clase secundaria
 

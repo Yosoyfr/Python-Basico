@@ -1,12 +1,19 @@
 class Person:
-    # self es equivalente a this en java
-    def __init__(self, name, age):  # La funcion init es como el equivalente a un constructor en java
+    # self es equivalente a this en otros lenguajes de programacion
+    # La funcion init es como el equivalente a un constructor en otros lenguajes
+    def __init__(self, name, age, altura, location):
         self.name = name  # Atributo (propiedad)
         self.age = age  # Atributo (propiedad)
+        self.altura = altura  # Atributo (propiedad)
+        self.location = location  # Atributo (propiedad)
 
     # Operaciones(Metodos/Funciones) de Person
     def presentation(self):
-        print("Hello my name is " + self.name)
+        print("Hello, my name is " + self.name)
+
+     # Operaciones(Metodos/Funciones) de Person
+    def getLocation(self):
+        print("Soy de:", self.location)
 
 
 p1 = Person("Francisco Suarez", 21)
